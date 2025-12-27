@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(3, 3, 3, 0.986);
+    padding: 12px 30px;
+    border: 2px solid #000;
+    border-radius: 30px;
+}
+
+.navbar a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.hotel {
+    height: 100vh;
+    background: url("taj.jpg") no-repeat center/cover;
+    padding: 80px 60px;
+}
+
+.big-title {
+    box-shadow: 2px 2px 8px #000;
+    font-size: 70px;
+    color: rgb(34, 33, 33);
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+
+.card-container {
+    display: flex;
+    gap: 70px;
+    padding: 150px;
+    margin-top: 50px;
+}
+
+.card {
+    position: relative;
+    background: rgb(231, 221, 221);
+    color: #000;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    gap: 100px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.entry {
+    position: relative;
+    left: 45px;
+    bottom: -35px;
+    background: rgb(231, 221, 221);
+    color: #000;
+    padding: 15px;
+    width: 550px;
+    border-radius: 10px;
+    right: 350px;
+}
+
+.entry2 {
+    position: relative;
+    left: 610px;
+    bottom: 395px;
+    background: rgb(231, 221, 221);
+    color: #000;
+    padding: 15px;
+    width: 550px;
+    border-radius: 10px;
+
+}
+
+.entry3 {
+    position: relative;
+    left: 1175px;
+    bottom: 825px;
+    background: rgb(231, 221, 221);
+    color: #000;
+    padding: 15px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.exit {
+    position: relative;
+    left: 700px;
+    bottom: 650px;
+    background: rgb(231, 221, 221);
+    color: #000;
+    padding: 15px;
+    width: 530px;
+    border-radius: 15px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    bottom: 470px;
+    color: white;
+    background: black;
+}
